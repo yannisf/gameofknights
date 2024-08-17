@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/lodash": "^4.17.7",
+    "path": "^0.12.7",
+    "rollup": "^4.20.0",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "clean": "rm -rf ./out ./dist",
+    "build": "tsc && rollup -c"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
