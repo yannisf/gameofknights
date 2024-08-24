@@ -5,8 +5,8 @@ import scala.util.Random
 
 object GameOfKnights extends App {
 
-  val numberOfKnights = 3
-  val initialHealth = 6
+  val numberOfKnights = 1000000
+  val initialHealth = 100
 
   case class Knight(name: String, health: Int = initialHealth) {
     def attack(): Int = Random.nextInt(6) + 1
